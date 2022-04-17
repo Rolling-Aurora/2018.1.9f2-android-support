@@ -1,0 +1,344 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!877146078 &1
+PlatformModuleSetup:
+  m_ObjectHideFlags: 0
+  modules:
+  - name: ParticleSystem
+    dependencies:
+      - Core
+      - SharedInternals
+      - Wind
+    strippable: 1
+  - name: Physics
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: Vehicles
+    dependencies:
+      - Core
+      - SharedInternals
+      - Physics
+    strippable: 1
+  - name: Cloth
+    dependencies:
+      - Core
+      - SharedInternals
+      - Physics
+    strippable: 1
+  - name: Animation
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: UI
+    dependencies:
+      - Core
+      - SharedInternals
+      - TextRendering
+    strippable: 1
+  - name: TerrainPhysics
+    dependencies:
+      - Core
+      - SharedInternals
+      - Physics
+      - Terrain
+    strippable: 1
+  - name: Facebook
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: StyleSheets
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: UNET
+    dependencies:
+      - Core
+      - SharedInternals
+      - Web
+      - UnityWebRequest
+    strippable: 1
+  - name: AR
+    dependencies:
+      - Core
+      - SharedInternals
+      - Physics
+      - Input
+      - JSONSerialize
+    strippable: 1
+  - name: VR
+    dependencies:
+      - Core
+      - SharedInternals
+      - UnityConnect
+      - Input
+      - JSONSerialize
+      - Physics
+      - XR
+    strippable: 1
+  - name: AI
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: Accessibility
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: AssetBundle
+    dependencies:
+      - Core
+      - SharedInternals
+      - HotReload
+    strippable: 1
+  - name: Audio
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: Baselib
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: CloudWebServices
+    dependencies:
+      - Core
+      - SharedInternals
+      - JSONSerialize
+      - UnityWebRequest
+    strippable: 1
+  - name: CrashReporting
+    dependencies:
+      - Core
+      - SharedInternals
+      - UnityConnect
+      - UnityWebRequest
+      - JSONSerialize
+      - CloudWebServices
+    strippable: 1
+  - name: Director
+    dependencies:
+      - Core
+      - SharedInternals
+      - Audio
+      - Animation
+      - Video
+    strippable: 1
+  - name: GameCenter
+    dependencies:
+      - Core
+      - SharedInternals
+      - ImageConversion
+    strippable: 1
+  - name: Grid
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: HotReload
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: IMGUI
+    dependencies:
+      - Core
+      - SharedInternals
+      - TextRendering
+    strippable: 1
+  - name: ImageConversion
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: Input
+    dependencies:
+      - Core
+      - SharedInternals
+      - JSONSerialize
+    strippable: 1
+  - name: JSONSerialize
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: ParticlesLegacy
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: PerformanceReporting
+    dependencies:
+      - Core
+      - SharedInternals
+      - UnityConnect
+      - JSONSerialize
+      - CloudWebServices
+    strippable: 1
+  - name: Physics2D
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: ScreenCapture
+    dependencies:
+      - Core
+      - SharedInternals
+      - ImageConversion
+    strippable: 1
+  - name: SharedInternals
+    dependencies: []
+    strippable: 1
+  - name: SpatialTracking
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: SpriteMask
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: SpriteShape
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: Substance
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: TLS
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: Terrain
+    dependencies:
+      - Core
+      - SharedInternals
+      - Wind
+    strippable: 1
+  - name: TextRendering
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: Tilemap
+    dependencies:
+      - Core
+      - SharedInternals
+      - Grid
+      - Physics2D
+    strippable: 1
+  - name: Timeline
+    dependencies:
+      - Core
+      - SharedInternals
+      - Director
+      - Audio
+      - Animation
+      - Video
+    strippable: 1
+  - name: UIElements
+    dependencies:
+      - Core
+      - SharedInternals
+      - IMGUI
+      - TextRendering
+      - StyleSheets
+    strippable: 1
+  - name: Umbra
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: UnityAnalytics
+    dependencies:
+      - Core
+      - SharedInternals
+      - UnityConnect
+      - JSONSerialize
+      - CloudWebServices
+    strippable: 1
+  - name: UnityConnect
+    dependencies:
+      - Core
+      - SharedInternals
+      - UnityWebRequest
+      - JSONSerialize
+      - CloudWebServices
+    strippable: 1
+  - name: UnityWebRequest
+    dependencies:
+      - Core
+      - SharedInternals
+      - TLS
+    strippable: 1
+  - name: UnityWebRequestAssetBundle
+    dependencies:
+      - Core
+      - SharedInternals
+      - AssetBundle
+      - UnityWebRequest
+    strippable: 1
+  - name: UnityWebRequestAudio
+    dependencies:
+      - Core
+      - SharedInternals
+      - UnityWebRequest
+      - Audio
+    strippable: 1
+  - name: UnityWebRequestTexture
+    dependencies:
+      - Core
+      - SharedInternals
+      - UnityWebRequest
+      - ImageConversion
+    strippable: 1
+  - name: UnityWebRequestWWW
+    dependencies:
+      - Core
+      - SharedInternals
+      - UnityWebRequest
+      - UnityWebRequestAssetBundle
+      - UnityWebRequestAudio
+      - Audio
+      - AssetBundle
+      - ImageConversion
+    strippable: 1
+  - name: Video
+    dependencies:
+      - Core
+      - SharedInternals
+      - Audio
+      - UnityWebRequest
+    strippable: 1
+  - name: Web
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: Wind
+    dependencies:
+      - Core
+      - SharedInternals
+    strippable: 1
+  - name: XR
+    dependencies:
+      - Core
+      - SharedInternals
+      - JSONSerialize
+      - UnityConnect
+    strippable: 1
+  - name: Core
+    dependencies:
+      - SharedInternals
+    strippable: 1
